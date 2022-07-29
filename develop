@@ -1,9 +1,9 @@
-let a = "vermelho";
-let b = "azul";
+//escreva uma função que usa 2 números 
+//e retorna o maior entre eles
 
-let c = a;
-a=b;
-b=c;
+let numeroMaior = numeros(7,9);
+console.log(numeroMaior);
 
-console.log(a);
-console.log(b);
+function numeros(n1,n2){
+    return n1 > n2 ? n1 : n2;
+}
