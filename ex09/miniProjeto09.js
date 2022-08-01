@@ -1,10 +1,12 @@
-//Trocar os valores
-let a = 'vermelho';
-let b = 'azul';
-let aux;
+//Criar uma função que exibe a quantidade de *que aquela linha possui
 
-aux = a;
-a = b;
-b = aux;
-console.log(a, b);
+exibirAsteriscos(10);
+
+function exibirAsteriscos(linhas) {
+    let padrao = "";
+    for (let linha =1; linha <= linhas; linha++) {
+        padrao += "*";
+        console.log(padrao);
+    }
+}
 
