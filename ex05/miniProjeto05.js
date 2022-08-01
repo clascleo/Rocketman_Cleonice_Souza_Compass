@@ -1,10 +1,13 @@
-//Trocar os valores
-let a = 'vermelho';
-let b = 'azul';
-let aux;
+// Receber uma quantidade de valores para avaliar
+// Função exibe se cada valor é par ou ímpar
 
-aux = a;
-a = b;
-b = aux;
-console.log(a, b);
+exibirTipo(68);
+function exibirTipo(limite) {
+    for (let i = 0; i <= limite; i++){
+        if (i % 2 === 0)
+        console.log(i, "Par");
+        else
+        console.log(i, "Impar");
+    }
+}
 
