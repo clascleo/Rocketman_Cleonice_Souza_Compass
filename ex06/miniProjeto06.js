@@ -1,10 +1,15 @@
-//Trocar os valores
-let a = 'vermelho';
-let b = 'azul';
-let aux;
+// Criar um método para ler propriedades de um objeto e 
+// exibir somente as propriedades do tipo string que estãonesse objeto
 
-aux = a;
-a = b;
-b = aux;
-console.log(a, b);
-
+const filme = {
+    titulo : "Velozes e furiosos",
+    ano: 2020,
+    diretor: "Roberto Carlos",
+    personagem : "Dominic Toretto"
+}
+exibirPropriedades(filme);
+function exibirPropriedades(obj) {
+    for (prop in obj)
+    if(typeof obj[prop] === "string")
+    console.log(prop + ":", obj[prop])
+}
