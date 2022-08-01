@@ -1,10 +1,16 @@
-//Trocar os valores
-let a = 'vermelho';
-let b = 'azul';
-let aux;
+// Criar função para mostrar os numeros primos
 
-aux = a;
-a = b;
-b = aux;
-console.log(a, b);
+exibirNumerosPrimos(45);
+function exibirNumerosPrimos(limite){
+    for (let numero = 2; numero <=limite; numero++){
+        let ehPrimo = true;
 
+        for (let divisor = 2; divisor < numero; divisor++){
+            if (numero % divisor === 0){
+                ehPrimo = false;
+                break;
+            }
+        }
+        if (ehPrimo) console.log(numero);
+    }
+}
