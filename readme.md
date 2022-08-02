@@ -6,7 +6,7 @@
 
  Hello World!!! (hehehe)
 
-Neste projeto proposto por Compass UOL, do qual sou participante no programa de bolsas, irei commitar diariamente exercícios dispostos na sprint 04.
+Este projeto é proposto por Compass UOL, do qual sou participante no programa de bolsas, irei commitar os exercícios dispostos na sprint 04.
 
 ## Objetivo da SPRINT
 
