@@ -1,10 +1,16 @@
-//Trocar os valores
-let a = 'vermelho';
-let b = 'azul';
-let aux;
+// Objeto Endereço
+// Criar um objeto endereço que contenha:
+//rua, cidade, cep
 
-aux = a;
-a = b;
-b = aux;
-console.log(a, b);
+let endereco = {
+    rua:"Serafim",
+    cidade: "Ceara",
+    cep: 84251444
+};
 
+function exibirEndereco(endereco) {
+    for (let chave in endereco)
+    console.log(chave + ":", endereco[chave]);
+}
+
+exibirEndereco(endereco);
