@@ -1,10 +1,23 @@
-//Trocar os valores
-let a = 'vermelho';
-let b = 'azul';
-let aux;
+//Crie um objeto de postagem de blog, nele deve conter as seguintes propriedades:
+//postagem
+//titulo
+//mensagem
+//autor 
+//visualizaçoes
+//comentarios
+//(autor, mensagem)
+//estaAoVivo
 
-aux = a;
-a = b;
-b = aux;
-console.log(a, b);
+let postagem = {
+    titulo: "Valor do gasolina",
+    mensagem: "Sobe o valor da gasolina",
+    autor: "Cleonice Alves de Souza",
+    visualizacoes: 9,
+    comentarios: [
+        {autor: "Amanda",mensagem: "Meu Deus! onde vamos parar com esses aumentos?"},
+        {autor: "Tamara",mensagem: "Como estágiaria o jeito é andar de buzão mesmo!"}
+    ],
+    estaAoVivo: true
+}
 
+console.log(postagem);
