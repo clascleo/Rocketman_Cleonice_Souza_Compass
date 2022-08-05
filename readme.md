@@ -23,6 +23,11 @@ Este projeto é proposto por Compass UOL, do qual sou participante no programa d
 * GIT
 * Vscode
 
+## Agradecimentos
+
+Agradeço a equipe Rocketman turma 04 por toda ajuda e companherismo, em especial as "RocketGirls" Amanda e Tamara.
+
+
 ## Direitos Autorais
 
 CompassUOL 
